@@ -21,10 +21,9 @@ body {
   height: 50px;
 }
 
-/* .main-nav {
-  display: inline-block;
-  padding: 100px 20px;
-} */
+.display-none {
+  display: none;
+}
 
 ul {
   text-decoration: none;
@@ -64,6 +63,12 @@ ul {
 .link-btn.sign-up:hover {
   background-color: #e6e9f1;
   color: #372772;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  color: #4c4012;
 }
 
 .header {
