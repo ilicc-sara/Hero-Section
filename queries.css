@@ -1,0 +1,95 @@
+/************************************/
+/* BELLOW 1104px */
+/************************************/
+
+@media (max-width: 69em) {
+  .hero-section {
+    max-width: 100rem;
+  }
+
+  h1 {
+    font-size: 4.4rem;
+  }
+
+  .intro-text {
+    font-size: 1.8rem;
+  }
+
+  .nav-list {
+    gap: 2rem;
+    padding-right: 1.5rem;
+  }
+
+  .link-btn:link,
+  .link-btn:visited {
+    font-size: 1.4rem;
+  }
+}
+
+/************************************/
+/* BELLOW 960px */
+/************************************/
+
+@media (max-width: 60em) {
+  .hero-section {
+    max-width: 75rem;
+    grid-template-columns: 1fr;
+    row-gap: 5rem;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .link-btn:link,
+  .link-btn:visited {
+    font-size: 2.8rem;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding-right: 5rem;
+    align-items: center;
+  }
+
+  .nav {
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.96);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .btns {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+}
+
+/************************************/
+/* BELLOW 752px */
+/************************************/
+
+@media (max-width: 47em) {
+  html {
+    font-size: 56.25%;
+  }
+}
