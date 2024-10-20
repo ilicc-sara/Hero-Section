@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
   font-weight: 400;
   color: #191506;
   background-color: #fffbeb;
+  overflow-x: hidden;
 }
 
 .header {
@@ -77,6 +79,7 @@ ul {
   background-color: #ffd43b;
   /* background-color: #fffbeb; */
   /* background-color: #ffea9d; */
+  position: relative;
 }
 
 .btn-mobile-nav {

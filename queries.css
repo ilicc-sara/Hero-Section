@@ -55,7 +55,7 @@
   }
 
   .nav {
-    z-index: 999;
+    z-index: 800;
     background-color: rgba(255, 255, 255, 0.96);
     position: absolute;
     top: 0;
@@ -74,6 +74,21 @@
     visibility: hidden;
   }
 
+  .nav-open .nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translate(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
   .btns {
     justify-content: center;
     align-items: center;
@@ -81,6 +96,7 @@
 
   .btn-mobile-nav {
     display: block;
+    z-index: 999;
   }
 }
 
